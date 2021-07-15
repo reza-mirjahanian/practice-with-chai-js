@@ -16,3 +16,5 @@ context() is just an alias for describe(), and behaves the same way; it provides
 
 TDD
 The TDD interface provides suite(), test(), suiteSetup(), suiteTeardown(), setup(), and teardown():
+You need to tell Mocha to use the TDD interface, instead of the default BDD one:
+mocha --ui tdd card.test.js
